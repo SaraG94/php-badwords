@@ -4,6 +4,7 @@ $text = $_GET['paragraph'];
 $word =$_GET['censored'];
 var_dump($_GET);
 
+$text2= str_replace($word,'***',$text);
 ?>
 
 <h1>Paragrafo orginale:</h1>
@@ -11,3 +12,8 @@ var_dump($_GET);
 
 <h1>Nuovo Paragrafo:</h1>
 
+<p> 
+    <?php echo$text2?>
+    <br>
+   
+</p>
