@@ -15,5 +15,5 @@ $text2= str_replace($word,'***',$text);
 <p> 
     <?php echo$text2?>
     <br>
-   
+    lunghezza paragrafo:<?php echo strlen($text2) ?>
 </p>
