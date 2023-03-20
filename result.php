@@ -6,7 +6,11 @@ $text2= str_replace($word,'***',$text);
 ?>
 
 <h1>Paragrafo orginale:</h1>
-<p> <?php echo$text?> </p>
+<p> 
+    <?php echo$text?>
+    <br>
+    lunghezza paragrafo originale:<?php echo strlen($text) ?> 
+</p>
 
 <h1>Nuovo Paragrafo:</h1>
 
